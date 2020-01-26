@@ -10,23 +10,35 @@
     android:paddingBottom="16dp"
     tools:context=".MainActivity">
 
-<!--    TODO replace hard coded text with Strings-->
+    <!--    TODO replace hard coded text with Strings-->
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Quantity"
         android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:onClick="increment"
+        android:text="+" />
 
     <TextView
         android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="0"
+        android:text="2"
         android:textColor="#000000"
         android:textSize="16sp" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:onClick="decrement"
+        android:text="-" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="$0"
+        android:text="$10"
         android:textColor="#000000"
         android:textSize="16sp" />
 
