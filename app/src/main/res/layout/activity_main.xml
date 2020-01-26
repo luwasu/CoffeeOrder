@@ -10,6 +10,8 @@
     android:paddingBottom="16dp"
     tools:context=".MainActivity">
 
+<!--    TODO replace hard coded text with Strings-->
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="£0"
+        android:text="$0"
         android:textColor="#000000"
         android:textSize="16sp" />
 
