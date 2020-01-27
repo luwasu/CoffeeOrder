@@ -26,7 +26,8 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     int quantity;
-    double pricePerCoffee = 4.50;
+    double pricePerCoffee = 5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +39,13 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        String message = "Your total amount is £" + ( quantity * pricePerCoffee ) + " for " + quantity +" coffees";
-        displayMessage(message);
+
+        String priceMessage = "Total: £" + ( quantity * pricePerCoffee );
+        priceMessage = priceMessage + "\nThank you for your order ;-)";
+
+        displayMessage(priceMessage);
     }
+
 
     /**
      * This method is called when the "-" is clicked
