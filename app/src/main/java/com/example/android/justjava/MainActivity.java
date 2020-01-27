@@ -13,6 +13,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.view.View;
 import android.widget.TextView;
 
@@ -50,18 +51,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     /**
      * This method is called when the "+" is clicked
      */
 
     public void decrement(View view) {
-        quantity = quantity -1;
+        quantity = quantity - 1;
         display(quantity);
 
     }
-
-
-
 
     /**
      * This method displays the given quantity value on the screen.
