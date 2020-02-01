@@ -13,14 +13,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af8dd8a-b3e1-4cb7-a30b-03a2764079d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7af8dd8a-b3e1-4cb7-a30b-03a2764079d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +23,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="6PQ0217422003114" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_27_Android_8" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -59,18 +52,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/justjava/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -78,11 +59,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="258">
+              <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+              <folding>
+                <element signature="e#667#691#0" expanded="true" />
+                <element signature="e#1038#1060#0" expanded="true" />
+                <element signature="e#1332#1348#0" expanded="true" />
+                <element signature="e#1591#1612#0" expanded="true" />
+                <element signature="e#1804#1825#0" expanded="true" />
+                <element signature="e#2065#2080#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -101,7 +95,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -145,15 +143,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/justjava/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3840" />
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="1920" />
+    <option name="y" value="62" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,7 +196,34 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Just Java" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Just Java" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Just Java" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Just Java" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Non-Source Files'; set:Project Non-Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$NonSourceFilesScope">
           <expand>
@@ -240,7 +267,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.example.android.justjava" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_27_Android_8" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-01-26T13:02:46.326Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-01-31T23:58:11.985Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="algorithm" value="Scalr" />
@@ -351,8 +378,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3840" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="62" width="1920" height="1053" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5011211" side_tool="true" weight="0.19210246" />
       <window_info id="Image Layers" order="1" />
@@ -361,22 +387,22 @@
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" weight="0.32977587" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49775785" visible="true" weight="0.2252142" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49775785" visible="true" weight="0.19637139" />
       <window_info id="Captures" order="8" sideWeight="0.5008375" side_tool="true" weight="0.19210246" />
       <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.49893278" weight="0.60201794" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.4994664" weight="0.5470852" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49893278" weight="0.45454547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49893278" visible="true" weight="0.45403588" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5010672" side_tool="true" weight="0.33071747" />
-      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32847533" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3295964" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.3295964" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32977587" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info active="true" anchor="right" id="Preview" order="3" visible="true" weight="0.24479803" />
+      <window_info anchor="right" id="Preview" order="3" visible="true" weight="0.21344717" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
     </layout>
@@ -537,9 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -552,10 +575,28 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="33" />
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+          <folding>
+            <element signature="e#667#691#0" expanded="true" />
+            <element signature="e#1038#1060#0" expanded="true" />
+            <element signature="e#1332#1348#0" expanded="true" />
+            <element signature="e#1591#1612#0" expanded="true" />
+            <element signature="e#1804#1825#0" expanded="true" />
+            <element signature="e#2065#2080#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
