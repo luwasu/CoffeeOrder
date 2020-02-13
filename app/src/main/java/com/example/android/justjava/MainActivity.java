@@ -26,7 +26,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     int quantity;
-//    int price = 5;
+
 
 
     @Override
@@ -37,29 +37,48 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method is called when the order button is clicked.
+     *
+     *
      */
     public void submitOrder(View view) {
-        int price = quantity * 5;
+        int price = calculatePrice();
 
-        String priceMessage = "Total: £" + price;
-        priceMessage = priceMessage + "\nThank you!";
-        displayMessage(priceMessage);
 
-        calculatePrice();
+        displayMessage(createOrderSummary(price));
     }
 
 
     /**
      * Calculates the price of the order.
      *
-     *
+     * @return price total price
      */
-    private void calculatePrice() {
-        int price = quantity * 5;
+
+    private int calculatePrice() {
+        return quantity * 5;
+
+    }
+
+    /**
+     * Calculates the price of the order.
+     *
+     * @return print out message after submitting order
+     */
+
+    private String createOrderSummary(int price){
+
+        String priceMessage = "Name: Luis Santana-Holmes";
+        priceMessage +=  "\nTotal: £" + price;
+        priceMessage += "\nQuantity: " + quantity;
+        priceMessage += "\nThank you!";
+
+        return priceMessage;
     }
 
 
-    /**
+
+
+     /**
      * This method is called when the "-" is clicked
      */
 
@@ -89,13 +108,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * This method displays the given price on the screen.
-     */
-    private void displayPrice(int number) {
-        TextView priceTextView = findViewById(R.id.price_text_view);
-        priceTextView.setText(NumberFormat.getCurrencyInstance(Locale.UK).format(number));
-    }
 
     /**
      * This method displays the given text on the screen.
