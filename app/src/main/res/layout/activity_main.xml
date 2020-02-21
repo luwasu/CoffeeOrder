@@ -17,24 +17,24 @@
         android:text="@string/toppings"
         android:textAllCaps="true" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <CheckBox
+        android:id="@+id/whipped_cream_checkbox"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
         android:layout_marginBottom="16dp"
-        android:orientation="horizontal">
+        android:text="@string/whipped_cream"
+        android:textSize="16sp"/>
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="24dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/whipped_cream" />
-
-
-    </LinearLayout>
+    <CheckBox
+        android:id="@+id/chocolate_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/chocolate"
+        android:textSize="16sp"/>
 
 
     <!--    TODO replace hard coded text with Strings-->
