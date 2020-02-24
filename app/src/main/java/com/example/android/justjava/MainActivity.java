@@ -57,18 +57,20 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
+
+        // Figure out if the user wants whipped cream topping
         CheckBox whippedCreamCheckBox = findViewById(R.id.whipped_cream_checkbox);
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
 
+        // Figure out if the user wants chocolate topping
         CheckBox chocolateCheckBox = findViewById(R.id.chocolate_checkbox);
         boolean hasChocolate = chocolateCheckBox.isChecked();
 
-        Log.v("MainActivity", "the whipped cream checkbox is " + hasWhippedCream);
-        Log.v("MainActivity", "the chocolate checkbox is " + hasChocolate);
 
-
+        // Calculate the price
         int price = calculatePrice();
-        Log.v("MainActivity", "the price is " + price);
+
+        // Display the order summary on the screen
 
         displayMessage(createOrderSummary(price, hasWhippedCream, hasChocolate));
     }
@@ -91,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
      * @return print out message after submitting order
      * @param price of order
      * @param addWhippedCream is whether or not the user wanted whipped cream topping
+     * @param addChocolate is whether or not the user wanted chocolate
      */
 
     private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate) {
