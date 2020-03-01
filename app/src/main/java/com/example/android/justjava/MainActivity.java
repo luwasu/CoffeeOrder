@@ -117,12 +117,12 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate, String name) {
 
-        String priceMessage = "Name: " + name;
-        priceMessage += "\nAdd whipped cream? " + addWhippedCream;
-        priceMessage += "\nAdd chocolate? " + addChocolate;
-        priceMessage += "\nTotal: £" + price;
-        priceMessage += "\nQuantity: " + quantity;
-        priceMessage += "\nThank you!";
+        String priceMessage = getString(R.string.order_summary_name) + name;
+        priceMessage += getString(R.string.order_summary_cream) + addWhippedCream;
+        priceMessage += getString(R.string.order_summary_chocolate) + addChocolate;
+        priceMessage += getString(R.string.order_summary_total) + price;
+        priceMessage += getString(R.string.order_summary_quantity) + quantity;
+        priceMessage += getString(R.string.order_summary_thanks);
 
         return priceMessage;
     }
@@ -144,6 +144,8 @@ public class MainActivity extends AppCompatActivity {
 
         quantity += 1;
         displayQuantity(quantity);
+
+
 
 
     }
