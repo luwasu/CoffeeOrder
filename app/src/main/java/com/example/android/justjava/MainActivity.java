@@ -9,6 +9,9 @@
 package com.example.android.justjava;
 
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -36,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the order button is clicked.
      */
+    @SuppressLint("IntentReset")
     public void submitOrder(View view) {
 
         // Figure out if the user wants whipped cream topping
@@ -57,7 +61,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Display the order summary on the screen
 
-        displayMessage(createOrderSummary(price, hasWhippedCream, hasChocolate, name));
+        String priceMessage = createOrderSummary(price, hasWhippedCream, hasChocolate, name);
+
+        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+        emailIntent.setData(Uri.parse("mailto:")); // only email apps should handle this
+//        emailIntent.setType("text/plain");
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Just Java order for Luis");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, priceMessage);
+        if (emailIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(emailIntent);
+        }
 
 
     }
@@ -104,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate, String name) {
 
-        String priceMessage = "Name " + name;
+        String priceMessage = "Name: " + name;
         priceMessage += "\nAdd whipped cream? " + addWhippedCream;
         priceMessage += "\nAdd chocolate? " + addChocolate;
         priceMessage += "\nTotal: £" + price;
@@ -162,11 +175,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /**
-     * This method displays the given text on the screen.
-     */
-    private void displayMessage(String message) {
-        TextView orderSummaryTextView = findViewById(R.id.order_summary_text_view);
-        orderSummaryTextView.setText(message);
-    }
 }
