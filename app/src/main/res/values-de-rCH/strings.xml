@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Just Java</string>
     <string name="quantity_title">Quantität</string>
     <string name="minus_button">-</string>
@@ -12,4 +12,11 @@
     <string name="whipped_cream">Sahne</string>
     <string name="chocolate">Schokolade</string>
     <string name="name">Name</string>
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g> </string>
+    <string name="order_summary_cream">Zusätzlich Sahne? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Zusätzlich Schokolade? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_total">Total:£<xliff:g id="price" example="£10">%d</xliff:g></string>
+    <string name="order_summary_quantity">Quantität: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_thanks"> Vielen Dank!</string>
+    <string name="email_subject">Just Java Bestellung für Luis</string>
 </resources>

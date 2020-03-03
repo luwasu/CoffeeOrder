@@ -11,10 +11,11 @@
     <string name="whipped_cream">Whipped Cream</string>
     <string name="chocolate">Chocolate</string>
     <string name="name">Name</string>
-    <string name="order_summary_name">\"Name: <xliff:g id="name" example="Amy">%s</xliff:g> </string>
-    <string name="order_summary_cream">\"\nAdd whipped cream? ? \"</string>
-    <string name="order_summary_chocolate">\"\nAdd chocolate? \"</string>
-    <string name="order_summary_total">\nTotal: £</string>
-    <string name="order_summary_quantity">\"\nQuantity: \"</string>
-    <string name="order_summary_thanks">\nThank you!</string>
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g> </string>
+    <string name="order_summary_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_total">Total:£<xliff:g id="price" example="£10">%d</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_thanks"> Thank you!</string>
+    <string name="email_subject">Just Java order for Luis</string>
 </resources>
