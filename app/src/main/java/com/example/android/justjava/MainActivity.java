@@ -9,7 +9,6 @@
 package com.example.android.justjava;
 
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -39,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the order button is clicked.
      */
-    @SuppressLint("IntentReset")
     public void submitOrder(View view) {
 
         // Figure out if the user wants whipped cream topping
@@ -65,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
         emailIntent.setData(Uri.parse("mailto:")); // only email apps should handle this
-//        emailIntent.setType("text/plain");
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subject));
         emailIntent.putExtra(Intent.EXTRA_TEXT, priceMessage);
         if (emailIntent.resolveActivity(getPackageManager()) != null) {
@@ -144,8 +141,6 @@ public class MainActivity extends AppCompatActivity {
 
         quantity += 1;
         displayQuantity(quantity);
-
-
 
 
     }
